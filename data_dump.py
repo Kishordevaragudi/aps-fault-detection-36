@@ -5,7 +5,7 @@ import json
 client = pymongo.MongoClient("mongodb+srv://kishore:mongodb@cluster0.4xwrt.mongodb.net/?retryWrites=true&w=majority")
 
 DATA_FILE_PATH="/config/aps-fault-detection-36/aps_failure_training_set1.csv"
-DATABASE_NAME="aps"
+DATABASE_NAME="aps1"
 COLLECTION_NAME="sensor"
 
 if __name__=="__main__":
